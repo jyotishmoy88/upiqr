@@ -1,1 +1,1 @@
-# Click - https://nsisodiya.github.io/Universal-UPI-QR-Code-Generator/
+# Click - https://jyotishmoy88.github.io/upiqr/
