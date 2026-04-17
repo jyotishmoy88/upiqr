@@ -10,7 +10,7 @@ function genQrCode() {
 
   //TODO - Show Error on empty Box.
   console.log(accName, accNumber, accIFSC);
-  var str = "upi://pay?pa=" + accNumber + "@" + accIFSC +".ifsc.npci&pn=" + accName + "&cu=INR";
+  var str = "upi://pay?pa=" + encodeURIComponent(accNumber) + "@" + encodeURIComponent(accIFSC) +".ifsc.npci&pn=" + encodeURIComponent(accName) + "&cu=INR";
   $("#accNumberReplace").text(accNumber);
   $("#accNameReplace").text(accName);
   $("#accIFSCReplace").text(accIFSC);
